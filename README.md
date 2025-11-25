@@ -14,12 +14,19 @@ This case study will help us to understand the stages in the AI/ML project lifec
 - Machine learning classification model.
 - Build and evaluate classification models.
 - Provide insights based on the model's performance.
-Models' performance and validation with the test dataset
-#1. Import Libraries/Dataset
+  
+## Models validation <br>
 
-  a.  Download the dataset.
+Data Validation and Preprocessing Tests
+Model Training Validation
+ML Classification evaluation matrix (Confusion): Accuracy, Precision, Recall, F1-Score, ROC-AUC
+Regression Matrix : RMSE, MAE, R²
+Bias, Fairness & Explainability Tests
+Performance & Scalability Testing
+Integration & Pipeline Testing
+Monitoring & Continuous Testing in Production
 
-  b.  Import the required libraries.
+
 
 ## Project Structure
 ```
