@@ -1,13 +1,9 @@
-# AI-ML
-AI-ML Projects 
+# TrustGate.AI
+Gatekeeper for model quality, production guardrails, trust, bias, risk, and anomaly detection, 
   .
-# Case Study : Customer Loan Purchase Prediction
-
-_Auto-generated README from the uploaded notebook. Scanned on 2025-11-06 18:08._
+ README. Scanned on 2025-11-06 18:08._
 
 ## Overview
-(Extracted from the notebook’s markdown)
-
 # Case Study : Customer Loan Purchase Prediction
 
 This case study will help us to understand the stages in the AI/ML project lifecycle with loans data set to predict whether potential customer's will be targeted for loans. We will focus on the following stages namely -
@@ -25,14 +21,41 @@ This case study will help us to understand the stages in the AI/ML project lifec
 
   b.  Import the required libraries.
 
-## Repository Structure
+## Project Structure
 ```
-.
-└── Loan Approval Prediction.ipynb
++---.idea
+�   �   .gitignore
+�   �   AIML.iml
+�   �   misc.xml
+�   �   modules.xml
+�   �   workspace.xml
+�   �   
+�   +---inspectionProfiles
+�           profiles_settings.xml
+�           
++---Loan Pediction Modal Evaluation
+�   �   Customer_Financial_Info.csv
+�   �   Loan Approval Prediction.py
+�   �   loan_approval_best_model.joblib
+�   �   Loan_Approval_test.csv
+�   �   Loan_Approval_train.csv
+�   �   model_comparison_summary.csv
+�   �   model_test.py
+�   �   model_validation.py
+�   �   
+�   +---__pycache__
+�           model_validation.cpython-39.pyc
+�           
++---Reinforcement Learning
+    �   dino_run.py
+    �   
+    +---aigym_env
+            setup.py
+
 ```
 
 ## Data
-The notebook references the following data/file paths:
+ata/file paths:
 
 - `/content/Customer_Financial_Info.csv`
 
@@ -43,10 +66,10 @@ pip install matplotlib numpy pandas scikit-learn seaborn
 ```
 
 ## How to Run
-1. Open the notebook:
-   - `Loan Approval Prediction.ipynb`
-2. Run cells top-to-bottom.
-3. (Optional) Export the trained model with `joblib.dump(...)` if the notebook includes it.
+1. Run  Loan Approval Prediction.py
+   - `loan_approval_best_model.joblib file generated.`
+2. Run model_validation.
+3. Run the model_test
 
 ## Modeling (auto-detected)
 - Algorithms referenced: DecisionTreeClassifier, KNeighborsClassifier, LogisticRegression, RandomForestClassifier
@@ -55,5 +78,4 @@ pip install matplotlib numpy pandas scikit-learn seaborn
 - Random state(s): 42
 
 ## Notes
-- This README was created by parsing the notebook’s markdown and code. If anything looks off, it likely means the notebook hides logic inside helper functions or external modules.
-- For production use, consider promoting this notebook into a Python package with unit tests, a `pyproject.toml`, CI, and pinned dependency versions.
+- For production use, consider promoting and consuming it.
